@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Page</title>
+</head>
+<body>
+    <a href="#main">Skip to main content</a>
+    <a href="#help">Home Help</a>
+
+    <header>
+        <h1>Accessible Page</h1>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="#main">Main</a>
+    </nav>
+
+    <main id="main">
+        <img src="college.jpg" alt="College building">
+        <form>
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search">
+            <button type="submit" aria-label="Submit search">Search</button>
+        </form>
+    </main>
+
+    <footer id="help">
+        <p>Help and contact information</p>
+    </footer>
+</body>
+</html>
